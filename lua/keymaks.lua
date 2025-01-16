@@ -34,4 +34,4 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- Keybinds to make split navigation easier.
 vim.keymap.set('n', '<S-l>', ':bnext<CR>', { desc = 'Move to the next buffer' })
 vim.keymap.set('n', '<S-h>', ':bprevious<CR>', { desc = 'Move to the previous buffer' })
-vim.keymap.set('n', '<S-d>', ':bdelete<CR>', { desc = 'Move to the previous buffer' })
+--vim.keymap.set('n', '<S-d>', ':bdelete<CR>', { desc = 'Move to the previous buffer' })

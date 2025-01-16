@@ -579,6 +579,24 @@ require('lazy').setup({
       }
     end,
   },
+  {
+    'folke/snacks.nvim',
+    priority = 1000,
+    lazy = false,
+    ---@type snacks.Config
+    opts = {
+      bufdelete = { enabled = true },
+    },
+    keys = {
+      {
+        '<S-d>',
+        function()
+          Snacks.bufdelete()
+        end,
+        desc = 'Delete current buffer',
+      },
+    },
+  },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
