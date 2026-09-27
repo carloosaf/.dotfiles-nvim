@@ -4,4 +4,6 @@ test.sh
 nvim
 
 spell/
-lazy-lock.json
+
+
+# Track nvim-pack-lock.json to keep plugin versions reproducible.
